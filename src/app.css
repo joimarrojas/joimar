@@ -1,0 +1,47 @@
+body {
+  background: #000000;
+  color: rgb(252, 252, 252);
+}
+
+.title {
+  font-size: 2.7rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: 1px solid rgb(24, 182, 24);
+  border-radius: 3px;
+  background: wheat;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.character {
+  background: #37c432;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.character img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
